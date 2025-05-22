@@ -116,6 +116,11 @@ class TourDetailsPage extends StatelessWidget {
                         SizedBox(width: 4),
                         Text("Lunch")
                       ]),
+                      Row(children: [
+                        Icon(Icons.check, size: 16),
+                        SizedBox(width: 4),
+                        Text("Tjetër ca do ma shum")
+                      ]),
                     ],
                   ),
                 ],
