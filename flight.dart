@@ -23,27 +23,51 @@ class _FlightPageState extends State<FlightPage> {
     flights = [
       Flight(
         airline: 'Provence, France',
-        flightNumber: 'BG 101',
+        flightNumber: 'PF 101',
         departureTime: '08:00 AM',
-        arrivalTime: '09:15 AM',
-        duration: '1h 15m',
-        price: '৳8,500',
+        arrivalTime: '10:15 AM',
+        duration: '2h 15m',
+        price: 'ALL 8,500',
       ),
       Flight(
         airline: 'Tuscany, Italy',
-        flightNumber: 'BS 201',
+        flightNumber: 'TI 201',
         departureTime: '11:30 AM',
         arrivalTime: '12:45 PM',
         duration: '1h 15m',
-        price: '৳7,800',
+        price: 'ALL 7,800',
       ),
       Flight(
         airline: 'Marmara Region, Turkey',
-        flightNumber: 'NV 301',
+        flightNumber: 'NR 301',
         departureTime: '03:15 PM',
         arrivalTime: '04:30 PM',
-        duration: '1h 15m',
-        price: '৳9,200',
+        duration: '1h 45m',
+        price: 'ALL 9,200',
+      ),
+      Flight(
+        airline: 'Rome Fiumicino , Italy',
+        flightNumber: 'RF 501',
+        departureTime: '03:15 PM',
+        arrivalTime: '04:15 PM',
+        duration: '1h',
+        price: 'ALL 7,200',
+      ),
+      Flight(
+        airline: 'Barcelona , Spain',
+        flightNumber: 'BC 309',
+        departureTime: '9:15 PM',
+        arrivalTime: '11:45 PM',
+        duration: '2h 30m',
+        price: 'ALL 16,200',
+      ),
+      Flight(
+        airline: 'London , United Kingdom',
+        flightNumber: 'UK 775',
+        departureTime: '12:30 AM',
+        arrivalTime: '15:00 AM',
+        duration: '2h 30m',
+        price: 'ALL 26,200',
       ),
     ];
   }
@@ -349,7 +373,7 @@ class _FlightPageState extends State<FlightPage> {
                   onTap: () {
                     Navigator.pop(context);
                     onSelected(
-                        "Dhaka", "MAC, Marseille Provence Airport");
+                        "France", "MAC, Marseille Provence Airport");
                   },
                 ),
                 ListTile(
@@ -359,7 +383,7 @@ class _FlightPageState extends State<FlightPage> {
                   onTap: () {
                     Navigator.pop(context);
                     onSelected(
-                        "Chattogram", "AGP, Amerigo Vespucci Airport");
+                        "Italy", "AGP, Amerigo Vespucci Airport");
                   },
                 ),
                 ListTile(
