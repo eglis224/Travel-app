@@ -8,7 +8,7 @@ class FlightResultsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final List<Map<String, String>> flights = [
       {
-        'airline': 'Air Astra',
+        'airline': 'Air Albania',
         'departure': '19:30',
         'arrival': '20:35',
         'from': 'MAC',
@@ -44,8 +44,38 @@ class FlightResultsPage extends StatelessWidget {
         'from': 'MAC',
         'to': 'CXB',
         'duration': '1h 5m',
-        'price': '5,199',
-        'discount': '4,678',
+        'price': '2,199',
+        'discount': '599',
+      },
+      {
+        'airline': 'Wizz Air',
+        'departure': '20:00',
+        'arrival': '21:05',
+        'from': 'MAC',
+        'to': 'CXB',
+        'duration': '1h 30m',
+        'price': '4,199',
+        'discount': '0',
+      },
+      {
+        'airline': 'Lufthansa',
+        'departure': '20:00',
+        'arrival': '21:05',
+        'from': 'MAC',
+        'to': 'CXB',
+        'duration': '1h 45m',
+        'price': '5,499',
+        'discount': '0',
+      },
+      {
+        'airline': 'Turkish Airlines',
+        'departure': '20:00',
+        'arrival': '21:05',
+        'from': 'MAC',
+        'to': 'CXB',
+        'duration': '2h 15m',
+        'price': '2,599',
+        'discount': '0',
       },
     ];
 
