@@ -17,6 +17,9 @@ class _BookingsPageState extends State<BookingsPage> {
     {'id': 2, 'name': 'Mountain View Inn', 'status': 'Confirmed'},
     {'id': 3, 'name': 'City Lights Hotel', 'status': 'Pending'},
     {'id': 4, 'name': 'Beachfront Paradise', 'status': 'Confirmed'},
+        {'id': 5, 'name': 'Sultan Hazretleri', 'status': 'Pending'},
+            {'id': 6, 'name': 'Mystic Island', 'status': 'Pending'},
+                {'id': 7, 'name': 'Blue Mosque', 'status': 'Confirmed'},
   ];
 
   @override
