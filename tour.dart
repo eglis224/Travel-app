@@ -44,8 +44,11 @@ class _TourPackagePageState extends State<TourPackagePage> {
                   ),
                   items: [
                     "Istanbul, Saray",
-                    "Santa Valley, Kingdom",
+                    "Santa Valley, United Kingdom",
                     "Saint Martin's Island",
+                    "Milano Capone, Italy",
+                    "Paris Tower, France",
+                    "London Bridge, United Kingdom",
                   ].map((loc) {
                     return DropdownMenuItem(value: loc, child: Text(loc));
                   }).toList(),
