@@ -13,8 +13,8 @@ class HotelBookingPage extends StatefulWidget {
 
 class _HotelBookingPageState extends State<HotelBookingPage> {
   String location = "Istanbul";
-  DateTime checkInDate = DateTime(2025, 4, 16);
-  DateTime checkOutDate = DateTime(2025, 4, 17);
+  DateTime checkInDate = DateTime(2025, 6, 16);
+  DateTime checkOutDate = DateTime(2025, 6, 17);
   int guests = 2;
   int rooms = 1;
   final List<String> filters = [
@@ -29,7 +29,10 @@ class _HotelBookingPageState extends State<HotelBookingPage> {
     "Istanbul",
     "Marseille",
     "Tuscany",
-    "Provence"
+    "Provence",
+    "Rome",
+    "Barcelona",
+    "London"
   ];
   final List<int> guestOptions = [1, 2, 3, 4, 5, 6];
   final List<int> roomOptions = [1, 2, 3, 4];
